@@ -5,7 +5,7 @@ const DataTweeter = () => {
     let _COMMENT_NUMBER = 1;
 
     const getPosts = () => {
-        return _POST_DATA;
+        return [..._POST_DATA];
     };
 
     const addPost = (text) => {
